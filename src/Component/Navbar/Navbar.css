@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    
+}
+.navbar{
+    height: 70px;
+    background-color:black;
+    /* background: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar img{
+    height: 60px;
+    width: 6.5rem;
+    margin-left: 3rem;
+}
+.navlogo img{
+    border: 1px solid transparent;
+    margin: 2px;
+}
+.navlogo img:hover{
+    border: 1px solid white;
+    
+
+}
+.nav_address{
+    color: white;
+border: 2px solid transparent;
+margin-left: 1rem;
+/* text-align: center; */
+margin-top: 1rem;
+margin-bottom: 7px;
+padding: 2px;
+font-size: small;
+
+
+}
+.nav_address:hover{
+border: 1px solid white;
+}
+.add_icon{
+    color: white;
+    display: flex;
+    
+}
+.add_icon p{
+margin-left: 8px;
+}
+.nav_search{
+   margin-top: 1.5rem;
+   margin-left: 1rem;
+   /* justify-content: space-between; */
+}
+.nav_search input{
+    margin-left: 8px;
+    width: 20rem;
+}
+.nav_search button{
+    /* margin-left: 8px; */
+    background: goldenrod;
+    height: 1.5rem;
+}
+.nav_signin{
+    color:white;
+    font-size: 12px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    border: 1px solid transparent;
+    margin: 1rem;
+}
+.nav_signin:hover{
+border: 1px solid white;
+
+}
+.account{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cartlogo{
+    /* background:white; */
+    margin-left: 1.5rem;
+    /* height: 3rem; */
+    margin-top: 1.4rem;
+    display: flex;
+    color: white;
+}
+.cart-icon{
+    color: white;
+    height: 2rem;
+
+}
+.cartlogo p{
+margin-left: 5px;
+margin-top:1.1rem ;
+font-weight: 700;
+}
