@@ -4,11 +4,23 @@
     
 }
 .navbar{
+    /* position: fixed;
     height: 70px;
     background-color:black;
-    /* background: red; */
+    
+    display: flex;
+    justify-content: space-evenly; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+      
 }
 .navbar img{
     height: 60px;
@@ -81,9 +93,17 @@ border: 1px solid white;
     /* background:white; */
     margin-left: 1.5rem;
     /* height: 3rem; */
-    margin-top: 1.4rem;
+    margin-top: 1rem;
     display: flex;
     color: white;
+    border: 2px solid transparent;
+    padding: 2px;
+    margin: 1rem;
+   
+}
+.cartlogo:hover{
+   
+border: 1px solid white;
 }
 .cart-icon{
     color: white;
@@ -94,4 +114,198 @@ border: 1px solid white;
 margin-left: 5px;
 margin-top:1.1rem ;
 font-weight: 700;
+}
+
+.panel{
+    width: 100%;
+    /* position: sticky; */
+    position: fixed;
+   background:#222f3d; 
+   height: 2rem;
+  
+   /* justify-content: space-evenly; */
+   display: flex;
+   align-items: center;
+   margin-top: 70px;
+}
+.All{
+    display: flex;
+    margin-left: 15px;
+    color: white;
+   
+}
+.All p{
+    margin-left: 5px;
+}
+.list_item{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+    justify-content: space-between;
+  
+}
+.list_item p{
+    margin-left: 25px;
+    border: 1px solid transparent;
+}
+.list_item p:hover{
+    border: 1px solid white;
+}
+.electronic{
+    display: flex;
+    color:white;
+    margin-left: 35%;
+    border: 1px solid transparent;
+    font-weight: 700;
+}
+.electronic:hover{
+    border: 1px solid white;
+}
+
+/* .content_img img{
+    height: 30rem;
+    width: 80rem;
+    position: fixed;
+} */
+.content_img img {
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire container with the image */
+    object-position: center; /* Center the image */
+}
+
+.para p {
+    position: absolute; /* Position the paragraph absolutely */
+    top: 80%; /* Adjust the top position */
+    left: 50%; /* Adjust the left position */
+    transform: translate(-50%, -50%); /* Center the paragraph */
+    color: black; /* Set the paragraph color */
+    font-size: 24px; /* Set the paragraph font size */
+    z-index: 1; /* Ensure the paragraph is on top */
+    background-color: rgb(210, 222, 222);
+display: flex;
+text-align: center;
+font-size: large;
+}
+.shop{
+    margin-top: -5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.shop img{
+height: 20rem;
+width: 18rem;
+border: 1px solid black;
+}
+.shop2{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.shop3{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.shop2 img{
+    height: 20rem;
+    width: 18rem;
+    border: 1px solid black;
+    }
+    .shop3 img{
+        height: 20rem;
+        width: 18rem;
+        border: 1px solid black;
+        }
+    .footer1{
+        height: 3rem;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        background: #222f3d;
+        color: white;
+    }
+   .foot2{
+    color: rgb(168, 164, 164);
+    height: 35rem;
+    display: flex;
+    background:#373d43;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+   }
+    .foot2 h3 {
+       font-weight: 500;  
+       color: white;
+    }
+    .foot2_1{
+        margin-top: 6rem;
+    }
+    .navlogofoot img{
+   height: 5rem;
+   width: 8rem;
+   margin-left: 3rem;
+   
+   /* margin-left: 20rem; */
+    }
+    .navlogofoot button{
+        color: white;
+        background: #222f3d;
+        border: 1px solid white;
+        margin-left: 3rem;
+        height: 3rem;
+        width: 6rem;
+    }
+    .navlogofoot{
+        margin-top: -10rem;
+        z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    }
+.foot_last{
+margin-top: 5rem;
+background-color: black;
+height: 30rem;
+}
+    .foot_content h4{
+  color: white;
+  font-weight: 500;
+    }
+    .foot_content p{
+        color: white;
+        font-size: small;
+    }
+    .foot_last_1{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .foot_content{
+        margin-top: 3rem;
+    }
+.last_line {
+    color: white;
+    margin-top: 8rem;
+    
+    margin-left: 35%;
+   
+}
+.last_line2{
+    margin-left:3.5rem 
+
+}
+.shopimg{
+    height: 22rem;
+    width: 18rem;
+    border: 1px solid black;
+}
+.shopimg button{
+    margin-left: 6rem;
+    background: black;
+    color: white;
 }
